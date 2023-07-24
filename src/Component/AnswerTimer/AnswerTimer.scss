@@ -1,0 +1,34 @@
+$primary: #004544;
+$accent: #d08642;
+$bg: #ffff;
+$bg-accent: #e7e8e9;
+$disabled: #9c9c9c;
+$foreground: #67aead;
+
+.answer-loader {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    width: 75%;
+    margin-left: 59px;
+    .progress-bar {
+        height: 5px;
+        transition-duration: 1s;
+        width: 0;
+        border-radius: 30px;
+        transition-timing-function: linear;
+    }
+    .count{
+        position: fixed;
+        font-size: 25px;
+        margin-left: 265px;
+        margin-top: 17px;
+    }
+    .timeup{
+        position: fixed;
+        font-size: 25px;
+        margin-left: 265px;
+        margin-top: 17px;
+        color: rgb(209, 107, 107);
+    }
+}

@@ -1,0 +1,14 @@
+$primary: #004544;
+$accent: #d08642;
+$foreground: #67aead;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(0deg, $primary 0.04%, $accent);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 30px;
+    height: 100vh;
+    color: $foreground;
+}
+

@@ -1,0 +1,27 @@
+.Start-Quiz{
+    width: 500px;
+    background: #ffff;
+    border-radius: 10px;
+    margin-top: 200px;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    position: relative;
+    button{
+        width: 170px;
+        height: 40px;
+        padding: 0px 30px;
+        background: #004544;border: none;
+        border-radius: 7px;
+        color: #fff;
+        font-size: 23px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-left: 103px;
+        margin-top: 20px;
+    }
+    P{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}
